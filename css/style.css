@@ -1,0 +1,110 @@
+body{
+    width: 960px;
+    display: grid;
+    grid-template-rows: 100px 1fr 250px;
+
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 960px;
+   }
+   
+   .mainlogoimg{
+     margin-top: 50px;
+     display: inline-flex;
+   }
+   
+   
+   
+   header p {
+     flex-direction: column;
+     display: inline-flex;
+   
+   }
+   header img {
+     align-items: flex-start;
+   }
+   header p:nth-child(2){
+     font-family: 'Pacifico', cursive;
+     color: black;
+     font-weight: bold;
+     font-size: xx-large;
+     order: 1;
+     flex: 1;
+   
+   }
+   
+   header p:nth-child(3){
+     font-family: 'Advent Pro', sans-serif;
+     color: grey;
+     font-size: thin;
+     font-size: xx-small;
+     margin: auto;
+     order: 2;
+     flex: 1;
+   
+   }
+   
+   .iconsnav{
+     float: right;
+     display: inline-flex;
+     margin-top: -45px;
+     justify-content: space-around;
+   
+   }
+   
+
+   
+
+footer{
+    width: 100%;
+    margin-top: 30px;
+}
+.midlineimg{
+    display: inline-block;
+    padding-right: 20px;
+}
+footer div{
+    display: inline-block;
+    width: 55%;
+}
+footer button{
+    position: relative;
+    margin-left: 10%;
+    background-color:#bc7058;
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+footer h2{
+    margin-bottom: 0px;
+
+}
+footer p{
+    margin-top: 10px;
+}
+.lastline{
+  margin-top: 16px;
+  margin-bottom: 5%;
+}
+
+.lastlogo{
+    position: relative;
+    float: left;
+    left: 49%;
+    bottom: 0px;
+    z-index: 1;
+
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: gray;
+}
